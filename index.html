@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internship Project by Anoop</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+    <div class="forms-out">
+        
+      <div class="forms-in">
+        
+        <div id="registration-page" class="hide">
+            
+          <button id="show-login">Login In</button>
+          <h3>Registration</h3>
+          Email <br />
+          <input type="email" id="registration-email" /><br />
+          <br />
+          Password <br />
+          <input type="password" id="registration-password" /><br />
+          <center><button id="register">Register</button></center>
+        </div>
+
+        <div id="login-page">
+            <img src="uni2.jpeg" alt="universe" >
+          
+          <button id="show-register">Register !</button>
+          <h3>Log In</h3>
+          Email <br />
+          <input type="email" id="login-email" /><br />
+          Password <br />
+          <input type="password" id="login-password" /><br />
+          <p id="forgot-password">Forgot Password</p>
+          <center><button id="login">Login In</button></center>
+        </div>
+
+        <div id="homepage" class="hide">
+            
+          <button id="signout">Log Out</button>
+          <h3>Logged In Sir jii !</h3>
+        </div>
+      </div>
+    </div>
+     <!-- Firebase JS SDK -->
+     <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+<script src="form.js"></script>
+  </body>
+</html>
